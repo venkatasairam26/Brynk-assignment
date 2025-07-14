@@ -15,7 +15,7 @@ BRYNK-LABS/
 ├── backend/    → Node.js + Express + SQLite API
 ├── README.md
 🛠 Technologies Used
-Frontend: React, Axios
+Frontend: React, Router
 
 Backend: Node.js, Express
 
