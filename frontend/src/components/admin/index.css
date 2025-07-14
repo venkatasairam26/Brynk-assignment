@@ -1,0 +1,61 @@
+.admin {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.admin h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: 0;
+    vertical-align: middle;
+    margin: 0;
+    color: #333333;
+}
+.admin p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0;
+    vertical-align: middle;
+    margin: 0;
+    color: #999999;
+}
+.admin button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.6px;
+    vertical-align: middle;
+    background-color: #FFBD59;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 10px;
+}
+.admin button:hover {
+    cursor: pointer;
+    background-color: #FFBD59;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: none;
+}
+.admin textarea {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0;
+    margin: 0;
+    color: #999999;
+    width: 40%;
+    height: 100px;
+    resize: none;
+}
+
+

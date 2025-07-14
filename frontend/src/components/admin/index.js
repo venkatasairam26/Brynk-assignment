@@ -8,7 +8,7 @@ const Admin = () => {
 
     const handleUpdateData = async () => {
         try {
-            const response = await fetch('http://localhost:3001/data', {
+            const response = await fetch('https://brynk-assignment-tq58.onrender.com/data', {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',
@@ -28,16 +28,16 @@ const Admin = () => {
 
 useEffect(() => {
     const fetchUsers = async () => {
-        const response = await fetch('http://localhost:3001/data')
+        const response = await fetch('https://brynk-assignment-tq58.onrender.com/data')
         const data = await response.json()
         setHeading(data[0].heading)
     }
     fetchUsers()
 },[])
     return (
-        <div>
+        <div className='admin'>
             <h1>Admin</h1>
-            {isEdit ? <input type="text" value={heading} onChange={(e) => setHeading(e.target.value)} /> : <p dangerouslySetInnerHTML={{__html:heading}}/>}
+            {isEdit ? <textarea type="text" value={heading} onChange={(e) => setHeading(e.target.value)} /> : <p dangerouslySetInnerHTML={{__html:heading}}/>}
             <div>
                 <button onClick={() => setIsEdit(true)} >Edit</button>
                 <button onClick={handleUpdateData}>Save</button>

@@ -11,7 +11,7 @@ const Users = () => {
 
     useEffect(() => {
         const fetchUsers = async () => {
-            const response = await fetch('http://localhost:3001/data')
+            const response = await fetch('https://brynk-assignment-tq58.onrender.com/data')
             const data = await response.json()
             setUsersHeading(data[0].heading)
         }
