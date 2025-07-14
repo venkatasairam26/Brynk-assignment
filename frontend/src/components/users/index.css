@@ -1,0 +1,187 @@
+.users-top-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFF7EC 100%);
+}
+
+.left-card {
+    width: 50%;
+    padding: 68px 0 300px 142px;
+    background-image: url('https://res.cloudinary.com/dbbpvtoge/image/upload/v1752493614/Frame_26086340_vlmyg2.png');
+    background-size: 15% 67.8%;
+    background-repeat: no-repeat;
+}
+
+.right-card {
+    width: 44%;
+    background-image: url('https://res.cloudinary.com/dbbpvtoge/image/upload/v1752490485/Asset_5_1_gakair.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 1.1;
+    letter-spacing: -3px;
+    vertical-align: middle;
+    margin: 0 0 45px;
+}
+
+.heading b {
+    font-weight: 600;
+    color: #FFBD59;
+}
+
+.para {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+    vertical-align: middle;
+    margin: 0 0 35px;
+}
+
+.btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.6px;
+    vertical-align: middle;
+    background-color: #FFBD59;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.users-bottom-container {
+    padding: 62px 142px;
+    background-image: url('https://res.cloudinary.com/dbbpvtoge/image/upload/v1752517640/Background_pattern_kp97ao.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.tab-list {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 375px;
+    position: relative;
+}
+
+.tab-list .tab-itm {
+    width: 224px;
+    height: 167px;
+}
+
+.tab-list .tab-itm:nth-child(odd) {
+    margin-top: auto;
+}
+
+
+.tab-list .tab-itm h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0;
+    vertical-align: middle;
+    margin: 0 0 15px;
+    color: #333333;
+    position: relative;
+    padding: 40px 0 0;
+}
+
+.tab-list .tab-itm.multi-source h4::before {
+    background-image: url('https://res.cloudinary.com/dbbpvtoge/image/upload/v1752512561/data_scnygx.png');
+}
+
+.tab-list .tab-itm.ready-to-go-algos h4::before {
+    background-image: url('https://res.cloudinary.com/dbbpvtoge/image/upload/v1752512561/algos_lfobxg.png');
+}
+
+.tab-list .tab-itm.stakeholder-alignment h4::before {
+    background-image: url('https://res.cloudinary.com/dbbpvtoge/image/upload/v1752512562/stock-holder_uefwzj.png');
+}
+
+.tab-list .tab-itm.internal-capability-building h4::before {
+    background-image: url('https://res.cloudinary.com/dbbpvtoge/image/upload/v1752512561/building_pckjya.png');
+}
+
+.tab-list .tab-itm.continuous-engagement h4::before {
+    background-image: url('https://res.cloudinary.com/dbbpvtoge/image/upload/v1752512561/reload_abd0kz.png');
+}
+
+
+.tab-list .tab-itm h4::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.tab-list .tab-itm p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0;
+    vertical-align: middle;
+    margin: 0;
+    color: #999999;
+}
+
+.progress-container {
+    width: 100%;
+    padding: 25px;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    height: max-content;
+}
+
+.progress-bar {
+    position: relative;
+    height: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: flex;
+    gap: 23%;
+    align-items: center;
+}
+
+.progress-fill {
+    position: absolute;
+    height: 10px;
+    background-color: #3ccf7f;
+    border-radius: 5px;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+}
+
+.progress-step {
+    width: 15px;
+    height: 15px;
+    background-color: #3ccf7f;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 2;
+    transition: background-color 0.3s ease;
+    border: 4px solid transparent;
+}
+.progress-step.active {
+    background-color: #3ccf7f;
+    border: 4px solid #f0f0f0;
+}
+
+
