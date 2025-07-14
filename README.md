@@ -11,8 +11,8 @@ A CMS page to update the homepage heading dynamically
 Copy
 Edit
 BRYNK-LABS/
-├── frontend/     → React app
-├── backend/      → Node.js + Express + SQLite API
+├── frontend/   → React app
+├── backend/    → Node.js + Express + SQLite API
 ├── README.md
 🛠 Technologies Used
 Frontend: React, Axios
